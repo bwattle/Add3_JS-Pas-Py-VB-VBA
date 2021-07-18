@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>v1.02 Add 3 - AddMult</title>
+    <link rel="icon" href="../images/SSC_SmallLogo-60x81.png"/>
+    <meta charset="utf-8" />
+    <script type='text/javascript'>
+        function sum() {
+            var sum = 0;
+            var No1 = document.getElementById('txt1').value;
+            var No2 = document.getElementById('txt2').value;
+            var No3 = document.getElementById('txt3').value;
+            sum = No1 + No2 + No3
+            document.getElementById('txtSumValue').value = sum;
+        }
+    </script>
+</head>
+<body>
+    <h1>v1.01 Add 3 numbers - this version concatenates instead of adding.</h1>
+    <p>Enter 3 numbers - TAB for next field:</p>
+    <form id="input">
+        <textarea id="txt1" rows="1" cols="20"></textarea><br />
+        <textarea id="txt2" rows="1" cols="20"></textarea><br />
+        <textarea id="txt3" rows="1" cols="20"></textarea><br />
+        <input id="Run" type="Button" value="run" onclick="sum()" />
+        <br />
+        The sum of the numbers is:<br />
+        <textarea id="txtSumValue" rows="1" cols="20"></textarea>
+    </form>
+</body>
+</html>
