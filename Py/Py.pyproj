@@ -6,7 +6,7 @@
     <ProjectGuid>58df04cc-ac8e-40ab-a6e5-00ff983eee65</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Add3-102-AddMult.py</StartupFile>
+    <StartupFile>Add3-master.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,8 +23,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Add3-101-Concat.py" />
-    <Compile Include="Add3-102-AddMult.py" />
+    <Compile Include="Add3-master.py" />
+    <Compile Include="Add3-v101-Concat.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

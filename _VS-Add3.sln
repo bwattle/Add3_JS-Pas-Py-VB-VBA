@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Py", "Py\Py.pyproj", "{58DF04CC-AC8E-40AB-A6E5-00FF983EEE65}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB-v101", "VB-v101\VB-v101.vbproj", "{B7D3EE14-60A3-4419-B712-F1A67EDD314B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pas", "Pas", "{0B7602C8-527C-428D-A0F0-40174E341DF5}"
+	ProjectSection(SolutionItems) = preProject
+		Pas\Add3-master.pas = Pas\Add3-master.pas
+		Pas\Add3-v101-concatenates.pas = Pas\Add3-v101-concatenates.pas
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VBA", "VBA", "{63D5B296-5299-4FB7-8AFC-16A7E7A28BEC}"
+	ProjectSection(SolutionItems) = preProject
+		VBA\Add3-master.accdb = VBA\Add3-master.accdb
+		VBA\Add3-master.xlsm = VBA\Add3-master.xlsm
+		VBA\Add3-v101-concatenates.accdb = VBA\Add3-v101-concatenates.accdb
+		VBA\Add3-v101-concatenates.xlsm = VBA\Add3-v101-concatenates.xlsm
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FilesInRoot", "FilesInRoot", "{221867AF-C48E-4D66-AC42-D0BE5259477C}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		index.html = index.html
+		README.md = README.md
+		Web.config = Web.config
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "JS", "JS\", "{4656C640-D226-48D9-BF72-C8C7F8F65CCC}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60428"
+		Debug.AspNetCompiler.PhysicalPath = "JS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60428\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60428"
+		Release.AspNetCompiler.PhysicalPath = "JS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60428\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60428"
+		SlnRelativePath = "JS\"
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB-Add3", "VB-master\VB-Add3.vbproj", "{97E20959-28B9-4430-BDF9-16BE4730FDDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58DF04CC-AC8E-40AB-A6E5-00FF983EEE65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58DF04CC-AC8E-40AB-A6E5-00FF983EEE65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D3EE14-60A3-4419-B712-F1A67EDD314B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D3EE14-60A3-4419-B712-F1A67EDD314B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D3EE14-60A3-4419-B712-F1A67EDD314B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D3EE14-60A3-4419-B712-F1A67EDD314B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4656C640-D226-48D9-BF72-C8C7F8F65CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4656C640-D226-48D9-BF72-C8C7F8F65CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4656C640-D226-48D9-BF72-C8C7F8F65CCC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4656C640-D226-48D9-BF72-C8C7F8F65CCC}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{97E20959-28B9-4430-BDF9-16BE4730FDDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E20959-28B9-4430-BDF9-16BE4730FDDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E20959-28B9-4430-BDF9-16BE4730FDDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E20959-28B9-4430-BDF9-16BE4730FDDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47DCDC9D-627C-43EF-B9E0-4427B5BEDBDF}
+	EndGlobalSection
+EndGlobal

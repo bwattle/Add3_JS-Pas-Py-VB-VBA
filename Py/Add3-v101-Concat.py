@@ -1,4 +1,3 @@
-
 from ast import literal_eval
 
 No1 = input("Enter your first # : ")

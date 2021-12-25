@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1ECD56DC-80DE-4CFE-9288-B51338EEFEB7}</ProjectGuid>
+    <ProjectGuid>{97E20959-28B9-4430-BDF9-16BE4730FDDC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <StartupObject>Add3.My.MyApplication</StartupObject>
     <RootNamespace>Add3</RootNamespace>
@@ -72,11 +72,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Add3v102-AddMult.vb">
+    <Compile Include="Add3v101-Concatenates.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Add3v102-AddMult.Designer.vb">
-      <DependentUpon>Add3v102-AddMult.vb</DependentUpon>
+    <Compile Include="Add3v101-Concatenates.Designer.vb">
+      <DependentUpon>Add3v101-Concatenates.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -97,8 +97,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Add3v102-AddMult.resx">
-      <DependentUpon>Add3v102-AddMult.vb</DependentUpon>
+    <EmbeddedResource Include="Add3v101-Concatenates.resx">
+      <DependentUpon>Add3v101-Concatenates.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
