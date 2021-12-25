@@ -5,20 +5,18 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Py", "Py\Py.pyproj", "{58DF04CC-AC8E-40AB-A6E5-00FF983EEE65}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB-v101", "VB-v101\VB-v101.vbproj", "{B7D3EE14-60A3-4419-B712-F1A67EDD314B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pas", "Pas", "{0B7602C8-527C-428D-A0F0-40174E341DF5}"
 	ProjectSection(SolutionItems) = preProject
 		Pas\Add3-master.pas = Pas\Add3-master.pas
-		Pas\Add3-v101-concatenates.pas = Pas\Add3-v101-concatenates.pas
+		Pas\Add3-v101-concat.pas = Pas\Add3-v101-concat.pas
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VBA", "VBA", "{63D5B296-5299-4FB7-8AFC-16A7E7A28BEC}"
 	ProjectSection(SolutionItems) = preProject
-		VBA\Add3-master.accdb = VBA\Add3-master.accdb
-		VBA\Add3-master.xlsm = VBA\Add3-master.xlsm
-		VBA\Add3-v101-concatenates.accdb = VBA\Add3-v101-concatenates.accdb
-		VBA\Add3-v101-concatenates.xlsm = VBA\Add3-v101-concatenates.xlsm
+		VBA\Add3acc-master.accdb = VBA\Add3acc-master.accdb
+		VBA\Add3acc-v101-concat.accdb = VBA\Add3acc-v101-concat.accdb
+		VBA\Add3exc-master.xlsm = VBA\Add3exc-master.xlsm
+		VBA\Add3exc-v101-concat.xlsm = VBA\Add3exc-v101-concat.xlsm
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FilesInRoot", "FilesInRoot", "{221867AF-C48E-4D66-AC42-D0BE5259477C}"
@@ -51,7 +49,9 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "JS", "JS\", "{4656C640-D226
 		SlnRelativePath = "JS\"
 	EndProjectSection
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB-Add3", "VB-master\VB-Add3.vbproj", "{97E20959-28B9-4430-BDF9-16BE4730FDDC}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB-Add3-v101concat", "VB-v101-Concat\VB-Add3-v101concat.vbproj", "{B4949D0D-CE49-46D5-B04C-20EB5BDDFF2A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB-Add3-master", "VB-master\VB-Add3-master.vbproj", "{97E20959-28B9-4430-BDF9-16BE4730FDDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,14 +61,14 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{58DF04CC-AC8E-40AB-A6E5-00FF983EEE65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{58DF04CC-AC8E-40AB-A6E5-00FF983EEE65}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B7D3EE14-60A3-4419-B712-F1A67EDD314B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B7D3EE14-60A3-4419-B712-F1A67EDD314B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B7D3EE14-60A3-4419-B712-F1A67EDD314B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B7D3EE14-60A3-4419-B712-F1A67EDD314B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4656C640-D226-48D9-BF72-C8C7F8F65CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4656C640-D226-48D9-BF72-C8C7F8F65CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4656C640-D226-48D9-BF72-C8C7F8F65CCC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{4656C640-D226-48D9-BF72-C8C7F8F65CCC}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B4949D0D-CE49-46D5-B04C-20EB5BDDFF2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4949D0D-CE49-46D5-B04C-20EB5BDDFF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4949D0D-CE49-46D5-B04C-20EB5BDDFF2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4949D0D-CE49-46D5-B04C-20EB5BDDFF2A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{97E20959-28B9-4430-BDF9-16BE4730FDDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{97E20959-28B9-4430-BDF9-16BE4730FDDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97E20959-28B9-4430-BDF9-16BE4730FDDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
