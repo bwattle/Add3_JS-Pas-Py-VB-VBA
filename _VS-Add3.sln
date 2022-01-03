@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
+VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Py", "Py\Py.pyproj", "{58DF04CC-AC8E-40AB-A6E5-00FF983EEE65}"
 EndProject
@@ -28,30 +28,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FilesInRoot", "FilesInRoot"
 		Web.config = Web.config
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "JS", "JS\", "{4656C640-D226-48D9-BF72-C8C7F8F65CCC}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_60428"
-		Debug.AspNetCompiler.PhysicalPath = "JS\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60428\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_60428"
-		Release.AspNetCompiler.PhysicalPath = "JS\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60428\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "60428"
-		SlnRelativePath = "JS\"
-	EndProjectSection
-EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB-Add3-v101concat", "VB-v101-Concat\VB-Add3-v101concat.vbproj", "{B4949D0D-CE49-46D5-B04C-20EB5BDDFF2A}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB-Add3-master", "VB-master\VB-Add3-master.vbproj", "{97E20959-28B9-4430-BDF9-16BE4730FDDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JS", "JS", "{DC39BFD1-EABE-4BAB-B7DC-1DDA3B5D4AB6}"
+	ProjectSection(SolutionItems) = preProject
+		JS\Add3-master.html = JS\Add3-master.html
+		JS\Add3-v101-concat.html = JS\Add3-v101-concat.html
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,10 +46,6 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{58DF04CC-AC8E-40AB-A6E5-00FF983EEE65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{58DF04CC-AC8E-40AB-A6E5-00FF983EEE65}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4656C640-D226-48D9-BF72-C8C7F8F65CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4656C640-D226-48D9-BF72-C8C7F8F65CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4656C640-D226-48D9-BF72-C8C7F8F65CCC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{4656C640-D226-48D9-BF72-C8C7F8F65CCC}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{B4949D0D-CE49-46D5-B04C-20EB5BDDFF2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B4949D0D-CE49-46D5-B04C-20EB5BDDFF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4949D0D-CE49-46D5-B04C-20EB5BDDFF2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
