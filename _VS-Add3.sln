@@ -28,8 +28,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FilesInRoot", "FilesInRoot"
 		Web.config = Web.config
 	EndProjectSection
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB-Add3-v101concat", "VB-v101-Concat\VB-Add3-v101concat.vbproj", "{B4949D0D-CE49-46D5-B04C-20EB5BDDFF2A}"
-EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB-Add3-master", "VB-master\VB-Add3-master.vbproj", "{97E20959-28B9-4430-BDF9-16BE4730FDDC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JS", "JS", "{DC39BFD1-EABE-4BAB-B7DC-1DDA3B5D4AB6}"
@@ -37,6 +35,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JS", "JS", "{DC39BFD1-EABE-
 		JS\Add3-master.html = JS\Add3-master.html
 		JS\Add3-v101-concat.html = JS\Add3-v101-concat.html
 	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB-Add3-v101concat", "VB-v101-Concat\VB-Add3-v101concat.vbproj", "{8E265133-BCD0-4236-8C50-1894A3E0B3CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,14 +46,14 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{58DF04CC-AC8E-40AB-A6E5-00FF983EEE65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{58DF04CC-AC8E-40AB-A6E5-00FF983EEE65}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4949D0D-CE49-46D5-B04C-20EB5BDDFF2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4949D0D-CE49-46D5-B04C-20EB5BDDFF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4949D0D-CE49-46D5-B04C-20EB5BDDFF2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4949D0D-CE49-46D5-B04C-20EB5BDDFF2A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{97E20959-28B9-4430-BDF9-16BE4730FDDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{97E20959-28B9-4430-BDF9-16BE4730FDDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97E20959-28B9-4430-BDF9-16BE4730FDDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97E20959-28B9-4430-BDF9-16BE4730FDDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E265133-BCD0-4236-8C50-1894A3E0B3CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E265133-BCD0-4236-8C50-1894A3E0B3CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E265133-BCD0-4236-8C50-1894A3E0B3CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E265133-BCD0-4236-8C50-1894A3E0B3CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

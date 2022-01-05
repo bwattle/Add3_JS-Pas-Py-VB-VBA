@@ -22,25 +22,25 @@ Partial Class Add3
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.txtNo1 = New System.Windows.Forms.TextBox()
+        Me.txtNumber_1 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.txtNo2 = New System.Windows.Forms.TextBox()
+        Me.txtNumber_2 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.txtNo3 = New System.Windows.Forms.TextBox()
+        Me.txtNumber_3 = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.txtSumValue = New System.Windows.Forms.TextBox()
-        Me.btnCalcSum = New System.Windows.Forms.Button()
+        Me.txtTotalSum = New System.Windows.Forms.TextBox()
+        Me.BtnCalcSum = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'txtNo1
+        'txtNumber_1
         '
-        Me.txtNo1.Location = New System.Drawing.Point(98, 41)
-        Me.txtNo1.Margin = New System.Windows.Forms.Padding(2)
-        Me.txtNo1.Name = "txtNo1"
-        Me.txtNo1.Size = New System.Drawing.Size(104, 20)
-        Me.txtNo1.TabIndex = 0
-        Me.txtNo1.Text = "Enter #1"
+        Me.txtNumber_1.Location = New System.Drawing.Point(98, 41)
+        Me.txtNumber_1.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtNumber_1.Name = "txtNumber_1"
+        Me.txtNumber_1.Size = New System.Drawing.Size(104, 20)
+        Me.txtNumber_1.TabIndex = 0
+        Me.txtNumber_1.Text = "Enter #1"
         '
         'Label1
         '
@@ -62,14 +62,14 @@ Partial Class Add3
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "2nd Number"
         '
-        'txtNo2
+        'txtNumber_2
         '
-        Me.txtNo2.Location = New System.Drawing.Point(98, 68)
-        Me.txtNo2.Margin = New System.Windows.Forms.Padding(2)
-        Me.txtNo2.Name = "txtNo2"
-        Me.txtNo2.Size = New System.Drawing.Size(104, 20)
-        Me.txtNo2.TabIndex = 1
-        Me.txtNo2.Text = "Enter #2"
+        Me.txtNumber_2.Location = New System.Drawing.Point(98, 68)
+        Me.txtNumber_2.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtNumber_2.Name = "txtNumber_2"
+        Me.txtNumber_2.Size = New System.Drawing.Size(104, 20)
+        Me.txtNumber_2.TabIndex = 1
+        Me.txtNumber_2.Text = "Enter #2"
         '
         'Label3
         '
@@ -81,14 +81,14 @@ Partial Class Add3
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "3rd Number"
         '
-        'txtNo3
+        'txtNumber_3
         '
-        Me.txtNo3.Location = New System.Drawing.Point(98, 97)
-        Me.txtNo3.Margin = New System.Windows.Forms.Padding(2)
-        Me.txtNo3.Name = "txtNo3"
-        Me.txtNo3.Size = New System.Drawing.Size(104, 20)
-        Me.txtNo3.TabIndex = 2
-        Me.txtNo3.Text = "Enter #3"
+        Me.txtNumber_3.Location = New System.Drawing.Point(98, 97)
+        Me.txtNumber_3.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtNumber_3.Name = "txtNumber_3"
+        Me.txtNumber_3.Size = New System.Drawing.Size(104, 20)
+        Me.txtNumber_3.TabIndex = 2
+        Me.txtNumber_3.Text = "Enter #3"
         '
         'Label4
         '
@@ -100,39 +100,39 @@ Partial Class Add3
         Me.Label4.TabIndex = 7
         Me.Label4.Text = "Sum "
         '
-        'txtSumValue
+        'txtTotalSum
         '
-        Me.txtSumValue.Location = New System.Drawing.Point(98, 172)
-        Me.txtSumValue.Margin = New System.Windows.Forms.Padding(2)
-        Me.txtSumValue.Name = "txtSumValue"
-        Me.txtSumValue.Size = New System.Drawing.Size(104, 20)
-        Me.txtSumValue.TabIndex = 6
-        Me.txtSumValue.Text = "Answer"
+        Me.txtTotalSum.Location = New System.Drawing.Point(98, 172)
+        Me.txtTotalSum.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtTotalSum.Name = "txtTotalSum"
+        Me.txtTotalSum.Size = New System.Drawing.Size(104, 20)
+        Me.txtTotalSum.TabIndex = 6
+        Me.txtTotalSum.Text = "Answer"
         '
-        'btnCalcSum
+        'BtnCalcSum
         '
-        Me.btnCalcSum.Location = New System.Drawing.Point(34, 131)
-        Me.btnCalcSum.Margin = New System.Windows.Forms.Padding(2)
-        Me.btnCalcSum.Name = "btnCalcSum"
-        Me.btnCalcSum.Size = New System.Drawing.Size(168, 22)
-        Me.btnCalcSum.TabIndex = 3
-        Me.btnCalcSum.Text = "Calculate Sum"
-        Me.btnCalcSum.UseVisualStyleBackColor = True
+        Me.BtnCalcSum.Location = New System.Drawing.Point(34, 131)
+        Me.BtnCalcSum.Margin = New System.Windows.Forms.Padding(2)
+        Me.BtnCalcSum.Name = "BtnCalcSum"
+        Me.BtnCalcSum.Size = New System.Drawing.Size(168, 22)
+        Me.BtnCalcSum.TabIndex = 3
+        Me.BtnCalcSum.Text = "Calculate Sum"
+        Me.BtnCalcSum.UseVisualStyleBackColor = True
         '
         'Add3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(262, 248)
-        Me.Controls.Add(Me.btnCalcSum)
+        Me.Controls.Add(Me.BtnCalcSum)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.txtSumValue)
+        Me.Controls.Add(Me.txtTotalSum)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.txtNo3)
+        Me.Controls.Add(Me.txtNumber_3)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.txtNo2)
+        Me.Controls.Add(Me.txtNumber_2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.txtNo1)
+        Me.Controls.Add(Me.txtNumber_1)
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Add3"
         Me.Text = "v101 Add3 Concatenates"
@@ -141,13 +141,13 @@ Partial Class Add3
 
     End Sub
 
-    Friend WithEvents txtNo1 As TextBox
+    Friend WithEvents txtNumber_1 As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents txtNo2 As TextBox
+    Friend WithEvents txtNumber_2 As TextBox
     Friend WithEvents Label3 As Label
-    Friend WithEvents txtNo3 As TextBox
+    Friend WithEvents txtNumber_3 As TextBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents txtSumValue As TextBox
-    Friend WithEvents btnCalcSum As Button
+    Friend WithEvents txtTotalSum As TextBox
+    Friend WithEvents BtnCalcSum As Button
 End Class

@@ -7,11 +7,11 @@
     <script type='text/javascript'>
         function sum() {
             var sum = 0;
-            var No1 = document.getElementById('txt1').value;
-            var No2 = document.getElementById('txt2').value;
-            var No3 = document.getElementById('txt3').value;
-            sum = No1 + No2 + No3
-            document.getElementById('txtSumValue').value = sum;
+            var Number_1 = document.getElementById('txtNumber_1').value;
+            var Number_2 = document.getElementById('txtNumber_2').value;
+            var Number_3 = document.getElementById('txtNumber_3').value;
+            total = Number_1 + Number_2 + Number_3;
+            document.getElementById('txtSumValue').value = total;
         }
     </script>
 </head>
@@ -19,10 +19,10 @@
     <h1>v1.01 Add 3 numbers - this version concatenates instead of adding.</h1>
     <p>Enter 3 numbers - TAB for next field:</p>
     <form id="input">
-        <textarea id="txt1" rows="1" cols="20"></textarea><br />
-        <textarea id="txt2" rows="1" cols="20"></textarea><br />
-        <textarea id="txt3" rows="1" cols="20"></textarea><br />
-        <input id="Run" type="Button" value="run" onclick="sum()" />
+        <textarea id="txtNumber_1" rows="1" cols="20"></textarea><br />
+        <textarea id="txtNumber_2" rows="1" cols="20"></textarea><br />
+        <textarea id="txtNumber_3" rows="1" cols="20"></textarea><br />
+        <input type="Button" value="Calculate Sum" onclick="sum()" />
         <br />
         The sum of the numbers is:<br />
         <textarea id="txtSumValue" rows="1" cols="20"></textarea>
